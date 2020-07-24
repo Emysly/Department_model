@@ -1,10 +1,10 @@
 package com.emysilva.model.teacher;
 
-import com.emysilva.model.principal.PrincipalModel;
+import com.emysilva.model.principal.PrincipalTeacherNonAcedmicStaffModel;
 
 import java.util.Arrays;
 
-public class Teacher extends PrincipalModel {
+public class Teacher extends PrincipalTeacherNonAcedmicStaffModel {
     private String[] departments;
     private String[] courses;
 

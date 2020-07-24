@@ -1,6 +1,6 @@
 package com.emysilva.model.principal;
 
-public class Principal extends PrincipalModel {
+public class Principal extends PrincipalTeacherNonAcedmicStaffModel {
 
     public Principal(String firstname, String lastname, String role) {
         super(firstname, lastname, role);

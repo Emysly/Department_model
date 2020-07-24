@@ -1,5 +1,6 @@
 package com.emysilva;
 
+import com.emysilva.model.Staff;
 import com.emysilva.model.clas.Class;
 import com.emysilva.model.applicant.Applicant;
 import com.emysilva.model.course.Course;
@@ -26,6 +27,7 @@ public class Main {
         principal = new Principal("Chika", "Nwobi", "Principal");
         teacher = new Teacher("David", "Oguzie", "Teacher", new String[]{"Mechanical Engineering", "Electrical and Electronics Engineering", "Computer Science"}, new String[]{"EEE201", "EEE321", "EEE521", "MEE201", "MME321", "CSC201", "CSC321"});
         nonAcademicStaff = new NonAcademicStaff("Lucky", "Gbenga", "Non-Academic Staff", "Mechanical Engineering");
+        Staff staff = new Staff(principal, teacher, nonAcademicStaff);
         student = new Student("Chukwuebuka", "Emmanuel", "Student", "Electrical and Electronics Engineering", 27, 500, new String[]{"EEE521", "EEE502", "EEE504", "EEC344", "EEE570"});
         course = new Course("Electrical Installation (EEE521)", 500,"Electrical and Electronics Engineering", "David Oguzie", new Date());
         clas = new Class("Electrical wiring (EEE201)", "David Oguzie", "Power lab", new Date(), new String[]{"Mechanical Engineering", "Electrical and Electronics Engineering", "Computer Science"}, 200);
@@ -35,5 +37,6 @@ public class Main {
         System.out.println(principal.canExpel());
         System.out.println(principal.canAdmit(student.getAge()));
         System.out.println(student.canTakeCourse());
+        System.out.println(staff.display());
     }
 }

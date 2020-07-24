@@ -1,11 +1,11 @@
 package com.emysilva.model.principal;
 
-public class PrincipalModel {
+public class PrincipalTeacherNonAcedmicStaffModel {
     private String firstname;
     private String lastname;
     private String role;
 
-    public PrincipalModel(String firstname, String lastname, String role) {
+    public PrincipalTeacherNonAcedmicStaffModel(String firstname, String lastname, String role) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.role = role;
