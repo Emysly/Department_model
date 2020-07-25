@@ -2,7 +2,7 @@ package com.emysilva.model.student;
 
 import java.util.Arrays;
 
-public class StudentModel {
+public class StudentUtil {
     private String firstname;
     private String lastname;
     private String role;
@@ -11,7 +11,7 @@ public class StudentModel {
     private int level;
     private String[] courses;
 
-    public StudentModel(String firstname, String lastname, String role, String department, int age, int level, String[] courses) {
+    public StudentUtil(String firstname, String lastname, String role, String department, int age, int level, String[] courses) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.role = role;

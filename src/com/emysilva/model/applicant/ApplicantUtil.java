@@ -2,7 +2,7 @@ package com.emysilva.model.applicant;
 
 import java.util.Date;
 
-public class ApplicantModel {
+public class ApplicantUtil {
     private String firstname;
     private String lastname;
     private String role;
@@ -11,7 +11,7 @@ public class ApplicantModel {
     private int level;
     private Date date;
 
-    public ApplicantModel(String firstname, String lastname, String role, String department, int age, int level, Date date) {
+    public ApplicantUtil(String firstname, String lastname, String role, String department, int age, int level, Date date) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.role = role;

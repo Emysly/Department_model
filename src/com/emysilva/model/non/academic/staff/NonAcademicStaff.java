@@ -1,8 +1,8 @@
 package com.emysilva.model.non.academic.staff;
 
-import com.emysilva.model.principal.PrincipalTeacherNonAcedmicStaffModel;
+import com.emysilva.model.principal.PrincipalTeacherNonAcedmicStaffUtil;
 
-public class NonAcademicStaff extends PrincipalTeacherNonAcedmicStaffModel {
+public class NonAcademicStaff extends PrincipalTeacherNonAcedmicStaffUtil {
     private String department;
     public NonAcademicStaff(String firstname, String lastname, String role, String department) {
         super(firstname, lastname, role);

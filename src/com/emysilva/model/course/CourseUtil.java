@@ -2,14 +2,14 @@ package com.emysilva.model.course;
 
 import java.util.Date;
 
-public class CourseModel {
+public class CourseUtil {
     private String name;
     private int level;
     private String department;
     private String teacher;
     private Date scheduledTime;
 
-    public CourseModel(String name, int level, String department, String teacher, Date scheduledTime) {
+    public CourseUtil(String name, int level, String department, String teacher, Date scheduledTime) {
         this.name = name;
         this.level = level;
         this.department = department;

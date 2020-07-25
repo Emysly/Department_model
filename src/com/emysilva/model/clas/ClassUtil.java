@@ -3,7 +3,7 @@ package com.emysilva.model.clas;
 import java.util.Arrays;
 import java.util.Date;
 
-public class ClassModel {
+public class ClassUtil {
     private String course;
     private String teacher;
     private String location;
@@ -11,7 +11,7 @@ public class ClassModel {
     private String[] departments;
     private int level;
 
-    public ClassModel(String course, String teacher, String location, Date time, String[] departments, int level) {
+    public ClassUtil(String course, String teacher, String location, Date time, String[] departments, int level) {
         this.course = course;
         this.teacher = teacher;
         this.location = location;
