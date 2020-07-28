@@ -1,9 +1,5 @@
 package com.emysilva.model;
 
-import com.emysilva.model.non.academic.staff.NonAcademicStaff;
-import com.emysilva.model.principal.Principal;
-import com.emysilva.model.teacher.Teacher;
-
 public class Staff {
     Principal principal;
     Teacher teacher;

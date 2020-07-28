@@ -1,13 +1,13 @@
 package com.emysilva;
 
 import com.emysilva.model.Staff;
-import com.emysilva.model.clas.Class;
-import com.emysilva.model.applicant.Applicant;
-import com.emysilva.model.course.Course;
-import com.emysilva.model.non.academic.staff.NonAcademicStaff;
-import com.emysilva.model.principal.Principal;
-import com.emysilva.model.student.Student;
-import com.emysilva.model.teacher.Teacher;
+import com.emysilva.model.Class;
+import com.emysilva.model.Applicant;
+import com.emysilva.model.Course;
+import com.emysilva.model.NonAcademicStaff;
+import com.emysilva.model.Principal;
+import com.emysilva.model.Student;
+import com.emysilva.model.Teacher;
 
 import java.util.Date;
 
