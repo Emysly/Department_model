@@ -9,7 +9,7 @@ public class Principal extends PrincipalTeacherNonAcedmicStaffUtil {
     }
 
     public boolean canExpel() {
-        return false;
+        return true;
     }
 
     public boolean canAdmit(int age) {
